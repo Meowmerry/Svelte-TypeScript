@@ -15,15 +15,16 @@
     newItem = "";
   }
 
-  function removeFromList(index) {
+  function removeFromList(index: number) {
     todoList.splice(index, 1);
     todoList = todoList;
   }
+
 </script>
 
 <div class="container-todo">
   <div>
-    <input bind:value={newItem} type="text" placeholder="new todo item.." />
+    <input  bind:value={newItem} type="text" placeholder="new todo item.." />
     <button on:click={addToList}>Add</button>
 
     <br />

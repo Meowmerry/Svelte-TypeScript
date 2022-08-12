@@ -1,6 +1,7 @@
 <script lang="ts">
 import Header from './components/Header.svelte';
 import TodoList from './components/TodoList.svelte'
+
 interface PersonProps {
             name: string
             age: number 
